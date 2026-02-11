@@ -11,8 +11,14 @@
 
       $.extend(this, this.options);
       
+      // Storefront - default Woocommerce theme
       this.priceDiv = this.isOnSale ? $('#product-'+ this.productId +' .summary ins .woocommerce-Price-amount') : $('#product-'+ this.productId +' .summary .woocommerce-Price-amount');      
       
+      if (this.priceDiv.length == 0){
+        // Twenty Twenty-Five - default Wordpress theme, Elementor
+        this.priceDiv = this.isOnSale ? $('ins .woocommerce-Price-amount').eq(0) : $('.woocommerce-Price-amount').eq(0);      
+      }
+            
       var bdi = this.priceDiv.find('bdi');
       if (bdi.length){
         this.priceDiv = bdi;         
