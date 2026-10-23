@@ -3,7 +3,7 @@
 Contributors: pektsekye
 Tags: lenses prescription, customer order note, dependent variations, price calculation formula,  
 Requires at least: 4.7
-Tested up to: 6.8
+Tested up to: 6.9.1
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -36,11 +36,8 @@ Selected values are saved and then displayed on checkout pages and in the order 
 * It uses JavaScript to change product price so it is very dependent on theme's HTML. If it cannot find and update the product price you will need to adjust the JS file.
 
 
-You can check a demo page here:
-**[DEMO Page](http://hottons.com/demo/wp/as/product/dayton-dt30d/)**
-
 You can read the installation instructions here:
-**[README](http://hottons.com/demo/wp/po/README.html)**
+**[README](http://pekts.atwebpages.com/demo/wp/po/README.html)**
 
 
 **Simple Code Idea:**
@@ -48,7 +45,7 @@ You can read the installation instructions here:
 The idea of this plugin is to keep the base version as simple as possible.
 And to add the new features as modifications.
 
-This plugin has just 19 files to make it easy to use and customize. If you need more features check the modifications page [hottons.com/po_modifications](http://hottons.com/po_modifications)
+This plugin has just 19 files to make it easy to use and customize.
 
 Contact me by email <pektsekye@gmail.com> if you have questions or need help.
 
@@ -78,25 +75,6 @@ Contact me by email <pektsekye@gmail.com> if you have questions or need help.
 * Initial release
 
 
-== Other plugins ==
-
-= If you like this plugin check also: =
-
-* [Dependent Custom Options (gallery)](http://hottons.com/woocommerce/wp-ox.html) (PAID)
-  If you need options with images and descriptions and to make them dependent on each other.
-  
-* [Date Price Calendar](https://wordpress.org/plugins/date-price-calendar/)
-  If you need a date option with different price per date.
-  
-* [Lenses Prescription](https://wordpress.org/plugins/lenses-prescription/)
-  Displays product options as a table for contact lenses prescription.
-  
-* [Pizza Toppings](https://wordpress.org/plugins/pofw-pizza-toppings/)
-  Displays product options with special layout for pizza toppings.
-    
-* [Product Configurations Table](https://wordpress.org/plugins/product-configurations-table/)
-  Displays product options as a table with dependent selectable values.
-
 
 == Translators ==
 
@@ -106,4 +84,4 @@ Contact me by email <pektsekye@gmail.com> if you have questions or need help.
 
 == Documentation ==
 
-Full documentation is available [here](http://hottons.com/demo/wp/po/README.html).
+Full documentation is available [here](http://pekts.atwebpages.com/demo/wp/po/README.html).
